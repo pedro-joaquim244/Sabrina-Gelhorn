@@ -1,6 +1,6 @@
-# Clara Martins — landing page de nutrição
+# Sabrina Gelhorn — landing page profissional
 
-Modelo demonstrativo em React, JavaScript, Vite, Tailwind CSS e Lucide. Layout responsivo em azul, creme e branco. Perfil e conteúdo fictícios; fotos ilustrativas do Unsplash salvas em `public/images/`. As fontes Google Fonts dependem de internet, com fontes alternativas locais.
+Prévia demonstrativa em React, Vite, GSAP e Lucide para Sabrina Jany Gelhorn, psicóloga e psicopedagoga em Curitiba.
 
 ## Executar
 
@@ -9,13 +9,14 @@ npm install
 npm run dev
 ```
 
-`npm run build` gera `dist/`. `npm run preview` serve a versão de produção.
+`npm run build` gera a versão de produção em `dist/`.
 
-## Personalizar
+## Fotografias e marca
 
-- Em `src/config.js`, altere o nome, `whatsappNumber` (país + DDD + número, apenas dígitos) e a mensagem inicial. Todos os botões utilizam essa configuração. Sem número, abrem um aviso de demonstração; com número, abrem `wa.me` em outra aba.
-- Edite textos em `src/components/` e fotos em `src/data/photos.js`. Cada seção tem `index.jsx` e `style.module.css`. Substitua a apresentação fictícia, o nome na assinatura, os metadados de `index.html` e as informações profissionais antes do uso real.
-- Estilos globais ficam em `src/style.css`; estilos e responsividade de cada seção ficam no respectivo `style.module.css`.
-- Não são coletados dados nem enviados formulários. Não há agenda ou backend; o contato é pelo WhatsApp.
+O layout utiliza o logotipo oficial e quatro fotografias profissionais armazenadas em `src/assets/`. As imagens são importadas pelo Vite, recebem dimensões explícitas e usam carregamento tardio fora do Hero.
 
-O menu mobile, as perguntas expansíveis e a janela de demonstração funcionam por teclado. As animações respeitam a preferência por movimento reduzido.
+## Antes de publicar
+
+Confirme com a profissional a fotografia, a disponibilidade atual das áreas apresentadas, formas de atendimento, texto biográfico e formações. Adicione domínio, sitemap e imagem social somente depois dessas definições.
+
+O contato é feito por WhatsApp. Não há formulários, coleta de dados, agenda ou backend.
