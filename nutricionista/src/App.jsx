@@ -4,8 +4,8 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import {
   ArrowDown, ArrowUpRight, BookOpen, Brain, CheckCircle2, Compass, House,
-  GraduationCap, HeartHandshake, Menu, MessageCircle, PencilRuler, Puzzle,
-  Sparkles, UserRound, UsersRound, X,
+  GraduationCap, HeartHandshake, Menu, MessageCircle, Puzzle, UserRound,
+  UsersRound, X,
 } from 'lucide-react';
 import { siteConfig } from './config';
 import logo from './assets/logo.png';
@@ -25,9 +25,6 @@ const specialties = [
   { icon: UserRound, title: 'Psicologia infantil', text: 'Acolhimento às necessidades emocionais e relacionais da infância.' },
   { icon: Compass, title: 'Orientação vocacional', text: 'Reflexão sobre interesses, escolhas e possibilidades de trajetória.' },
   { icon: House, title: 'Orientação familiar', text: 'Apoio à compreensão de vínculos, dinâmicas e desafios familiares.' },
-  { icon: PencilRuler, title: 'Avaliação psicopedagógica', text: 'Leitura contextualizada de aspectos envolvidos na aprendizagem.' },
-  { icon: UsersRound, title: 'Constelação familiar', text: 'Conhecimento complementar presente em sua trajetória formativa.' },
-  { icon: Sparkles, title: 'Hipnose sistêmica', text: 'Recurso de formação sistêmica que compõe seu repertório profissional.' },
 ];
 
 const education = [
