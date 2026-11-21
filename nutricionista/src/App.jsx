@@ -13,6 +13,7 @@ import heroPhoto from './assets/psicologa1.png';
 import aboutPhoto from './assets/Psicologa2.png';
 import educationPhoto from './assets/Psicologa3.png';
 import complementaryPhoto from './assets/psicologa4.png';
+import tridente from './assets/tridente.png';
 import './redesign.css';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
@@ -151,7 +152,7 @@ export default function App() {
             <div className="hero__visual">
               <Portrait />
               <div className="hero__note"><span className="hero__note-icon"><HeartHandshake size={19} /></span><div><small>TRAJETÓRIA</small><strong>Mais de 45 anos no campo educacional e áreas relacionadas</strong></div></div>
-              <span className="hero__seal" aria-hidden="true"><i>ESCUTA</i><i>·</i><i>CUIDADO</i></span>
+              <span className="hero__seal" aria-hidden="true"><img src={tridente} alt="" /></span>
             </div>
           </div>
           <a className="hero__scroll" href="#sobre" aria-label="Ir para a seção sobre Sabrina"><span>CONHEÇA SABRINA</span><ArrowDown size={14} /></a>

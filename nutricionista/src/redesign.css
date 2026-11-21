@@ -488,26 +488,18 @@ em {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 3px;
-  color: var(--forest);
+  display: grid;
+  place-items: center;
   background: var(--paper);
   box-shadow: 0 9px 30px rgba(96, 72, 120, .16);
   transform: rotate(7deg);
 }
 
-.hero__seal i {
-  font-size: 12px;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: .09em;
-}
-
-.hero__seal i:nth-child(2) {
-  color: var(--sage);
+.hero__seal img {
+  display: block;
+  width: 68%;
+  height: 68%;
+  object-fit: contain;
 }
 
 .hero__scroll {
